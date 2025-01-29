@@ -69,3 +69,58 @@ h1, h2, h3 {
 .hero .btn:hover {
     background: #eab308;
 }
+
+/*About section*/
+.about {
+    display:flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about img {
+   width:  170px;
+   height: 180px;
+   border-radius:50%;
+   object-fit: cover;
+}
+
+.response-2 {
+    font-weight: 400;
+}
+
+/*Skills Section*/
+.skills-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minimax(200px, 1fr));
+}
+
+.skills h2 {
+    text-align: center;
+
+}
+
+.progress-bar {
+    background: #f3f3f3;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0.5rem;
+    height: 10px;
+    position: relative;
+}
+
+.progress-bar div {
+    background: linear-gradient(135deg, #6c63ff, #3b3b98);
+    height: 100%;
+    width: 0;
+    animation: fillBar 1.5s ease-out forwards;
+}
+
+@keyframes fillBar {
+    from {
+        width: 0;
+    }
+    to {
+        width: inherit;
+    }
+};
