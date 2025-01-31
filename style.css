@@ -175,6 +175,27 @@ body {
     gap: 1rem;
 }
 
+.header__btns a:hover {
+ color: var(--primary-color-dark);
+ background-color: var(--white);
+}
+
+.skill__container {
+ padding-block: 0;
+}
+
+.skill__container h2 {
+ margin-bottom: 1rem;
+ font-size: 1.2rem;
+ font-weight: 700;
+ letter-spacing: 2px;
+ background: var(--gradient-2);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ text-align: center;
+}
+
+
 /*Media query code*/
 
 @media(width > 768px) {
