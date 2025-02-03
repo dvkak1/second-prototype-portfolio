@@ -137,6 +137,7 @@ body {
     outline: none;
     border: none;
     font-size: 1rem;
+    color: var(--primary-color-dark);
     border-radius: 5rem;
     transition: .3s;
     cursor: pointer;
@@ -166,13 +167,6 @@ body {
   margin-inline: auto;
   color: var(--primary-color-light);
   text-align: center;
-}
-
-.header__btns {
-    display:flex; 
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
 }
 
 .header__btns a:hover {
@@ -208,7 +202,25 @@ body {
     background: var(--gradient-2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
 
+.project__container h2 {
+   margin-bottom: 4rem;
+   font-size: 2rem;
+   font-weight: 700;
+   background: linear-gradient(to right bottom, #f77d6b 25%, var(--primary-color-dark));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-align: center;
+}
+
+.project__grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.project__card {
+    max-width: 450px;
 }
 
 /*Media query code*/
@@ -245,5 +257,9 @@ body {
         background-color: transparent;
         transform: none;
         z-index: 1;
+    }
+
+    .skill__flex {
+        gap: 2rem;
     }
 }
