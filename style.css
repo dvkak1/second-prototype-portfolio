@@ -304,6 +304,54 @@ body {
     color: var(--primary-color-light);
 }
 
+footer {
+    background-color: var(--primary-color);
+}
+
+.footer__container h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.footer__container p {
+    margin-bottom: 1rem;
+    color: var(--primary-color-light);
+}
+
+.footer__container .mail__to a {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--primary-color-light);
+}
+
+.mail__to a span {
+    font-size: 1rem;
+}
+
+.footer__container .mail__to:hover a {
+  color: var(--white);
+} 
+
+
+.footer__socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer__socials a {
+    font-size: 1.25rem;
+    color: var(--primary-color-light);
+}
+
+.footer__socials a:hover {
+    color: var(--white);
+}
+
 /*Media query code*/
 
 @media(width > 768px) {
