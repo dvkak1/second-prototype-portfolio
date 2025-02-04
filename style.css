@@ -250,6 +250,29 @@ body {
     color: var(--white);
 }
 
+.experience__container h2 {
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(
+               to right bottom,
+               #9e1fdb 25%,
+               var(--primary-color-dark)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.experience__list {
+    display: grid;
+    gap: 3rem;
+}
+
+
+
+
+
 /*Media query code*/
 
 @media(width > 768px) {
