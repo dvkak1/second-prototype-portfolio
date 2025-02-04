@@ -269,9 +269,40 @@ body {
     gap: 3rem;
 }
 
+.experience__header {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.experience__header div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.experience__header img {
+    max-width: 25px;
+}
+
+.experience__header h4 {
+    font-display: 1.2rem;
+    font-weight: 600;
+    color: var(--white);
+}
 
 
+.experience__header p {
+    color: var(--primary-color-light);
+    white-space: nowrap;
+}
 
+.experience__list li p {
+    color: var(--primary-color-light);
+}
 
 /*Media query code*/
 

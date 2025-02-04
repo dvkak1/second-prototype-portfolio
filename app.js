@@ -47,3 +47,8 @@ ScrollReveal().reveal(".project__card", {
  ...scrollRevealOption, 
  interval: 500,
 });
+
+ScrollReveal().reveal(".experience__list li", {
+  ...scrollRevealOption, 
+  interval: 500,
+ });
