@@ -16,6 +16,11 @@ navLinks.addEventListener("click", (e) => {
   menuBtnIcon.setAttribute("class", "ri-menu-line");
 });
 
+
+document.getElementById("myButton").onclick = function () {
+  location.href = "#contact";
+};
+
 const scrollRevealOption = {
   distance: "50px",
   origin: "bottom",
